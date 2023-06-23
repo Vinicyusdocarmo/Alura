@@ -1,12 +1,12 @@
 :root{
---cor-de-fundo:rgb(50, 138, 77);
+       --cor-de-fundo:#1b9740;
 --branco: #ffffff;
 }
 body{
     background-color: var(--cor-de-fundo);
 }
 
-    background-color: rgb(88, 226, 54);
+
 
   .cabeçalho-menu-hanburguer {
     width: 24px;
@@ -15,24 +15,21 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
-
-  }
+ }
 
   .cabeçalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-  }
-
-  .container {
+}
+.container {
     display: flex;
     align-items: center;
   }
         
   .container_imagem {
-    padding:lem;
-    margin:lem ;
+    padding:1em;
+    margin:1em ;
     width: 5em;
   }
